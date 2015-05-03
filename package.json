@@ -8,5 +8,8 @@
       "runtime": "nw",
       "runtimeVersion": "0.12.1"
     }
+  },
+  "dependencies": {
+    "cmake-js-tut-01-module": "unbornchikken/cmake-js-tut-01-module"
   }
 }
