@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CMake.js with nw.js</title>
+</head>
+<body>
+<h1>nw.js application demonstrating CMake.js <span style="white-space: nowrap">out-of-the-box</span> nw.js compatibility</h1>
+<p>This nw.js application uses
+    <a href="https://github.com/unbornchikken/cmake-js/wiki/TUTORIAL-01-Creating-a-native-module-by-using-CMake.js-and-NAN" target="_blank">CMake.js demo module (cmake-js-tut-01-module) from the first tutorial</a>.
+    There is no <a href="https://github.com/nwjs/nw.js/wiki/Using-Node-modules#3rd-party-modules-with-cc-addons" target="_blank">nw-gyp like magic</a> required,
+    <strong>all CMake.js native modules are compatible with nw.js <span style="white-space: nowrap">out-of-the-box</span></strong>. <a>See the third CMake.js tutorial for details.</a></p>
+<p>We're calculating PI synchronously to see if
+    <a href="https://github.com/unbornchikken/cmake-js-tut-01-module" target="_blank">cmake-js-tut-01-module</a>
+    works as intended:</p>
+<p>PI:
+    <script>
+        var addon = require("cmake-js-tut-01-module");
+        var calculations = 10000000;
+        var pi = addon.calculateSync(calculations);
+        document.write(pi);
+    </script>
+</p>.
+</body>
+</html>
