@@ -3,13 +3,11 @@
   "description": "nw.js application demonstrating CMake.js out-of-the-box nw.js compatibility",
   "version": "1.0.0",
   "main": "index.html",
-  "config": {
-    "cmake-js": {
-      "runtime": "nw",
-      "runtimeVersion": "0.12.1"
-    }
-  },
   "dependencies": {
     "cmake-js-tut-01-module": "unbornchikken/cmake-js-tut-01-module"
+  },
+  "cmake-js": {
+    "runtime": "nw",
+    "runtimeVersion": "0.12.1"
   }
 }
