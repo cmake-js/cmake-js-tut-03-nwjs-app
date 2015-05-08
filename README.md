@@ -1,2 +1,1 @@
-# cmake-js-tut-03-nwjs-app
-nw.js application demonstrating CMake.js out-of-the-box nw.js compatibility
+See [TUTORIAL 03 Using CMake.js based native modules with nw.js](https://github.com/unbornchikken/cmake-js/wiki/TUTORIAL-03-Using-CMake.js-based-native-modules-with-nw.js).
